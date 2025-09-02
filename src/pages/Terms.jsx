@@ -29,7 +29,7 @@ const Terms = () => {
     <div ref={pageRef} className='min-h-screen bg-white text-black'>
       <div className='container mx-auto lg:px-12 px-6 py-24'>
         <div className='max-w-4xl mx-auto'>
-          <Link to='/' className='inline-block mb-8 text-[#D3FD50] hover:text-black transition-colors duration-300'>
+          <Link to='/' className='inline-block mb-8 text-[#FF6B35] hover:text-black transition-colors duration-300'>
             ← Back to Home
           </Link>
           

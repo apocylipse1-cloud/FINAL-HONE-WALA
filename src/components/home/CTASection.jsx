@@ -46,7 +46,7 @@ const CTASection = () => {
           <div className='space-y-6 lg:space-y-0 lg:space-x-6 lg:flex lg:justify-center lg:items-center'>
             <Link 
               to='/contact'
-              className='lg:border-3 border-2 hover:border-[#D3FD50] hover:bg-[#D3FD50] hover:text-black lg:h-20 h-16 flex items-center justify-center px-12 lg:px-16 border-white rounded-full uppercase transition-all duration-300 cursor-pointer group inline-flex'
+              className='lg:border-3 border-2 hover:border-[#FF6B35] hover:bg-[#FF6B35] hover:text-black lg:h-20 h-16 flex items-center justify-center px-12 lg:px-16 border-white rounded-full uppercase transition-all duration-300 cursor-pointer group inline-flex'
             >
               <span className='font-[font2] text-xl lg:text-2xl group-hover:scale-105 transition-transform duration-300'>
                 Get Started Today
@@ -65,15 +65,15 @@ const CTASection = () => {
 
           <div className='mt-16 grid lg:grid-cols-3 grid-cols-1 gap-8 text-center'>
             <div className='space-y-2'>
-              <div className='text-3xl lg:text-4xl font-[font2] text-[#D3FD50]'>24h</div>
+              <div className='text-3xl lg:text-4xl font-[font2] text-[#FF6B35]'>24h</div>
               <div className='font-[font1] text-sm lg:text-base text-gray-400 uppercase tracking-wide'>Response Time</div>
             </div>
             <div className='space-y-2'>
-              <div className='text-3xl lg:text-4xl font-[font2] text-[#D3FD50]'>100%</div>
+              <div className='text-3xl lg:text-4xl font-[font2] text-[#FF6B35]'>100%</div>
               <div className='font-[font1] text-sm lg:text-base text-gray-400 uppercase tracking-wide'>Satisfaction Rate</div>
             </div>
             <div className='space-y-2'>
-              <div className='text-3xl lg:text-4xl font-[font2] text-[#D3FD50]'>Free</div>
+              <div className='text-3xl lg:text-4xl font-[font2] text-[#FF6B35]'>Free</div>
               <div className='font-[font1] text-sm lg:text-base text-gray-400 uppercase tracking-wide'>Initial Consultation</div>
             </div>
           </div>

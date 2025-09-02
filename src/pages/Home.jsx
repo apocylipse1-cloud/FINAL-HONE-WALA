@@ -48,9 +48,9 @@ const Home = () => {
       </div>
       
       {/* Scrollable content */}
-      <div className='relative z-20 pt-20'>
+      <div className='relative z-20 content-spacing'>
         {/* Hero Section */}
-        <div ref={heroSectionRef} className='h-screen w-screen relative pb-5 flex flex-col justify-between hero-content -mt-20'>
+        <div ref={heroSectionRef} className='h-screen w-screen relative pb-5 flex flex-col justify-between hero-content' style={{ marginTop: '-6rem' }}>
           <HomeHeroText />
           <HomeBottomText />
         </div>
