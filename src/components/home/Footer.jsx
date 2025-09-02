@@ -49,7 +49,7 @@ const Footer = () => {
             Let's Talk About Your Project
           </h2>
           <div className='inline-flex items-center'>
-            <button className='lg:border-3 border-2 hover:border-[#D3FD50] hover:text-[#D3FD50] hover:bg-[#D3FD50] hover:text-black lg:h-16 h-12 flex items-center px-8 lg:px-12 border-white rounded-full uppercase transition-all duration-300 cursor-pointer group'>
+            <button className='lg:border-3 border-2 hover:border-[#FF6B35] hover:text-[#FF6B35] hover:bg-[#FF6B35] hover:text-black lg:h-16 h-12 flex items-center px-8 lg:px-12 border-white rounded-full uppercase transition-all duration-300 cursor-pointer group'>
               <span className='font-[font2] text-lg lg:text-xl group-hover:scale-105 transition-transform duration-300'>
                 Inquire Now
               </span>
@@ -73,7 +73,7 @@ const Footer = () => {
                       element.scrollIntoView({ behavior: 'smooth', block: 'start' })
                     }
                   }}
-                  className='font-[font1] text-base lg:text-lg text-gray-300 hover:text-[#D3FD50] transition-colors duration-300 hover:underline text-left'
+                  className='font-[font1] text-base lg:text-lg text-gray-300 hover:text-[#FF6B35] transition-colors duration-300 hover:underline text-left'
                 >
                   Our Portfolio
                 </button>
@@ -81,7 +81,7 @@ const Footer = () => {
               <li>
                 <Link 
                   to="/contact"
-                  className='font-[font1] text-base lg:text-lg text-gray-300 hover:text-[#D3FD50] transition-colors duration-300 hover:underline'
+                  className='font-[font1] text-base lg:text-lg text-gray-300 hover:text-[#FF6B35] transition-colors duration-300 hover:underline'
                 >
                   Contact
                 </Link>
@@ -89,7 +89,7 @@ const Footer = () => {
               <li>
                 <Link 
                   to="/privacy"
-                  className='font-[font1] text-base lg:text-lg text-gray-300 hover:text-[#D3FD50] transition-colors duration-300 hover:underline'
+                  className='font-[font1] text-base lg:text-lg text-gray-300 hover:text-[#FF6B35] transition-colors duration-300 hover:underline'
                 >
                   Privacy Policy
                 </Link>
@@ -97,7 +97,7 @@ const Footer = () => {
               <li>
                 <Link 
                   to="/terms"
-                  className='font-[font1] text-base lg:text-lg text-gray-300 hover:text-[#D3FD50] transition-colors duration-300 hover:underline'
+                  className='font-[font1] text-base lg:text-lg text-gray-300 hover:text-[#FF6B35] transition-colors duration-300 hover:underline'
                 >
                   Terms & Conditions
                 </Link>
@@ -105,7 +105,7 @@ const Footer = () => {
               <li>
                 <Link 
                   to="/affiliates"
-                  className='font-[font1] text-base lg:text-lg text-gray-300 hover:text-[#D3FD50] transition-colors duration-300 hover:underline'
+                  className='font-[font1] text-base lg:text-lg text-gray-300 hover:text-[#FF6B35] transition-colors duration-300 hover:underline'
                 >
                   Affiliates
                 </Link>
@@ -115,7 +115,7 @@ const Footer = () => {
 
           {/* Company Address */}
           <div className='footer-content space-y-4'>
-            <h3 className='font-[font2] text-xl lg:text-2xl uppercase text-[#D3FD50] mb-6'>
+            <h3 className='font-[font2] text-xl lg:text-2xl uppercase text-[#FF6B35] mb-6'>
               Address
             </h3>
             <div className='font-[font1] text-base lg:text-lg text-gray-300 leading-relaxed'>
@@ -127,7 +127,7 @@ const Footer = () => {
 
           {/* Hours of Operation */}
           <div className='footer-content space-y-4'>
-            <h3 className='font-[font2] text-xl lg:text-2xl uppercase text-[#D3FD50] mb-6'>
+            <h3 className='font-[font2] text-xl lg:text-2xl uppercase text-[#FF6B35] mb-6'>
               Hours
             </h3>
             <div className='font-[font1] text-base lg:text-lg text-gray-300 space-y-2'>
@@ -138,13 +138,13 @@ const Footer = () => {
 
           {/* Contact Information */}
           <div className='footer-content space-y-4'>
-            <h3 className='font-[font2] text-xl lg:text-2xl uppercase text-[#D3FD50] mb-6'>
+            <h3 className='font-[font2] text-xl lg:text-2xl uppercase text-[#FF6B35] mb-6'>
               Contact
             </h3>
             <div className='font-[font1] text-base lg:text-lg text-gray-300'>
               <a 
                 href="mailto:contact@wedding92.com"
-                className='hover:text-[#D3FD50] transition-colors duration-300 hover:underline'
+                className='hover:text-[#FF6B35] transition-colors duration-300 hover:underline'
               >
                 contact@wedding92.com
               </a>

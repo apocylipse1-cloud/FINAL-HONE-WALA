@@ -104,8 +104,19 @@ const Projects = () => {
 
   return (
     <div className='lg:px-12 px-6 lg:py-16 py-8 mb-[50vh] bg-white'>
+      {/* Back to Home Button */}
+      <div className='pt-24 mb-8'>
+        <Link 
+          to='/' 
+          className='inline-flex items-center space-x-2 text-[#FF6B35] hover:text-black transition-colors duration-300 group'
+        >
+          <span className='text-xl group-hover:-translate-x-1 transition-transform duration-300'>←</span>
+          <span className='font-[font2] text-lg uppercase'>Back to Home</span>
+        </Link>
+      </div>
+
       {/* Page Header */}
-      <div className='pt-[35vh] mb-16'>
+      <div className='mb-16'>
         <h1 className='font-[font2] lg:text-[9.5vw] text-7xl uppercase text-black'>
           Projets
         </h1>

@@ -62,7 +62,7 @@ const AboutSection = () => {
           <div className='grid lg:grid-cols-2 grid-cols-1 gap-12 lg:gap-16 items-center mb-16'>
             {/* Story Content */}
             <div className='about-content space-y-6'>
-              <h3 className='font-[font2] text-3xl lg:text-4xl uppercase text-[#D3FD50] mb-6'>
+              <h3 className='font-[font2] text-3xl lg:text-4xl uppercase text-[#FF6B35] mb-6'>
                 Our Story
               </h3>
               <p className='font-[font1] text-lg lg:text-xl leading-relaxed text-gray-700'>

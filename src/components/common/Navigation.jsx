@@ -28,7 +28,7 @@ const Navigation = () => {
       <div className='container mx-auto lg:px-12 px-6'>
         <div className='flex items-center justify-between h-16 lg:h-18'>
           {/* Logo/Brand */}
-          <Link to='/' className='font-[font2] text-xl lg:text-2xl uppercase text-black hover:text-[#D3FD50] transition-colors duration-300'>
+          <Link to='/' className='font-[font2] text-xl lg:text-2xl uppercase text-black hover:text-[#FF6B35] transition-colors duration-300'>
             K72
           </Link>
 
@@ -39,14 +39,14 @@ const Navigation = () => {
                 {item.link ? (
                   <Link 
                     to={item.link}
-                    className='font-[font1] text-sm xl:text-base text-black hover:text-[#D3FD50] transition-colors duration-300 uppercase tracking-wide'
+                    className='font-[font1] text-sm xl:text-base text-black hover:text-[#FF6B35] transition-colors duration-300 uppercase tracking-wide'
                   >
                     {item.name}
                   </Link>
                 ) : (
                   <button 
                     onClick={item.action}
-                    className='font-[font1] text-sm xl:text-base text-black hover:text-[#D3FD50] transition-colors duration-300 uppercase tracking-wide'
+                    className='font-[font1] text-sm xl:text-base text-black hover:text-[#FF6B35] transition-colors duration-300 uppercase tracking-wide'
                   >
                     {item.name}
                   </button>
@@ -63,14 +63,14 @@ const Navigation = () => {
                   {item.link ? (
                     <Link 
                       to={item.link}
-                      className='font-[font1] text-xs text-black hover:text-[#D3FD50] transition-colors duration-300 uppercase tracking-wide whitespace-nowrap'
+                      className='font-[font1] text-xs text-black hover:text-[#FF6B35] transition-colors duration-300 uppercase tracking-wide whitespace-nowrap'
                     >
                       {item.name}
                     </Link>
                   ) : (
                     <button 
                       onClick={item.action}
-                      className='font-[font1] text-xs text-black hover:text-[#D3FD50] transition-colors duration-300 uppercase tracking-wide whitespace-nowrap'
+                      className='font-[font1] text-xs text-black hover:text-[#FF6B35] transition-colors duration-300 uppercase tracking-wide whitespace-nowrap'
                     >
                       {item.name}
                     </button>
