@@ -52,7 +52,7 @@ const Affiliates = () => {
     <div ref={pageRef} className='min-h-screen bg-white text-black'>
       <div className='container mx-auto lg:px-12 px-6 py-24'>
         <div className='max-w-6xl mx-auto'>
-          <Link to='/' className='inline-block mb-8 text-[#FF6B35] hover:text-black transition-colors duration-300'>
+          <Link to='/' className='inline-block mb-8 text-[#D3FD50] hover:text-black transition-colors duration-300'>
             ← Back to Home
           </Link>
           
@@ -67,7 +67,7 @@ const Affiliates = () => {
 
           {/* Commission Highlight */}
           <div className='affiliate-content text-center mb-16'>
-            <div className='bg-[#FF6B35] rounded-2xl p-8 lg:p-12 inline-block'>
+            <div className='bg-[#D3FD50] rounded-2xl p-8 lg:p-12 inline-block'>
               <h2 className='font-[font2] text-4xl lg:text-6xl uppercase text-black mb-4'>
                 15% Lifetime
               </h2>
@@ -89,7 +89,7 @@ const Affiliates = () => {
                 </div>
                 
                 <div className='space-y-4'>
-                  <h3 className='font-[font2] text-2xl lg:text-3xl uppercase text-black group-hover:text-[#FF6B35] transition-colors duration-300'>
+                  <h3 className='font-[font2] text-2xl lg:text-3xl uppercase text-black group-hover:text-[#D3FD50] transition-colors duration-300'>
                     {benefit.title}
                   </h3>
                   <p className='font-[font1] text-base lg:text-lg leading-relaxed text-gray-600'>
@@ -97,7 +97,7 @@ const Affiliates = () => {
                   </p>
                 </div>
 
-                <div className='w-0 group-hover:w-full h-1 bg-[#FF6B35] transition-all duration-500 mt-6 rounded-full'></div>
+                <div className='w-0 group-hover:w-full h-1 bg-[#D3FD50] transition-all duration-500 mt-6 rounded-full'></div>
               </div>
             ))}
           </div>
@@ -105,14 +105,14 @@ const Affiliates = () => {
           {/* AmouraWorks Branding */}
           <div className='affiliate-content text-center mb-16'>
             <div className='bg-black rounded-2xl p-8 lg:p-12'>
-              <h3 className='font-[font2] text-3xl lg:text-4xl uppercase text-[#FF6B35] mb-6'>
+              <h3 className='font-[font2] text-3xl lg:text-4xl uppercase text-[#D3FD50] mb-6'>
                 Powered by AmouraWorks
               </h3>
               <p className='font-[font1] text-lg lg:text-xl text-gray-300 leading-relaxed mb-8'>
                 Notre programme d'affiliation est géré par AmouraWorks, garantissant des paiements fiables et un suivi transparent.
               </p>
               <div className='inline-flex items-center space-x-4'>
-                <div className='w-12 h-12 bg-[#FF6B35] rounded-full flex items-center justify-center'>
+                <div className='w-12 h-12 bg-[#D3FD50] rounded-full flex items-center justify-center'>
                   <span className='font-[font2] text-black text-xl'>A</span>
                 </div>
                 <span className='font-[font2] text-2xl lg:text-3xl text-white uppercase'>
@@ -124,7 +124,7 @@ const Affiliates = () => {
 
           {/* CTA */}
           <div className='affiliate-content text-center'>
-            <button className='lg:border-3 border-2 hover:border-[#FF6B35] hover:bg-[#FF6B35] hover:text-black lg:h-16 h-12 flex items-center justify-center px-12 lg:px-16 border-black rounded-full uppercase transition-all duration-300 cursor-pointer group inline-flex'>
+            <button className='lg:border-3 border-2 hover:border-[#D3FD50] hover:bg-[#D3FD50] hover:text-black lg:h-16 h-12 flex items-center justify-center px-12 lg:px-16 border-black rounded-full uppercase transition-all duration-300 cursor-pointer group inline-flex'>
               <span className='font-[font2] text-lg lg:text-xl group-hover:scale-105 transition-transform duration-300'>
                 Join Affiliate Program
               </span>

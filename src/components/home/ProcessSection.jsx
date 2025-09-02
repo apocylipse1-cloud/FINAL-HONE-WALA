@@ -102,7 +102,7 @@ const ProcessSection = () => {
             >
               {/* Step Number */}
               <div className='flex-shrink-0 mr-8'>
-                <div className='w-16 h-16 lg:w-20 lg:h-20 bg-[#FF6B35] rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300'>
+                <div className='w-16 h-16 lg:w-20 lg:h-20 bg-[#D3FD50] rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300'>
                   <span className='font-[font2] text-xl lg:text-2xl text-black'>
                     {step.step}
                   </span>
@@ -113,7 +113,7 @@ const ProcessSection = () => {
               <div className='flex-1 pt-2'>
                 <div className='bg-white rounded-2xl p-6 lg:p-8 shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:-translate-y-1'>
                   <div className='flex justify-between items-start mb-4'>
-                    <h3 className='font-[font2] text-xl lg:text-2xl uppercase text-black group-hover:text-[#FF6B35] transition-colors duration-300'>
+                    <h3 className='font-[font2] text-xl lg:text-2xl uppercase text-black group-hover:text-[#D3FD50] transition-colors duration-300'>
                       {step.title}
                     </h3>
                     <span className='font-[font1] text-sm lg:text-base text-gray-500 bg-gray-100 px-3 py-1 rounded-full'>
@@ -126,7 +126,7 @@ const ProcessSection = () => {
                   
                   {/* Progress line */}
                   {index < processSteps.length - 1 && (
-                    <div className='absolute left-8 lg:left-10 top-20 lg:top-24 w-0.5 h-12 lg:h-16 bg-gray-300 group-hover:bg-[#FF6B35] transition-colors duration-300'></div>
+                    <div className='absolute left-8 lg:left-10 top-20 lg:top-24 w-0.5 h-12 lg:h-16 bg-gray-300 group-hover:bg-[#D3FD50] transition-colors duration-300'></div>
                   )}
                 </div>
               </div>
