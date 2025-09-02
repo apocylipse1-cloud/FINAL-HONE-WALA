@@ -101,7 +101,7 @@ const ServicesSection = () => {
               </div>
               
               <div className='space-y-4 mb-6'>
-                <h3 className='font-[font2] text-2xl lg:text-3xl uppercase text-black group-hover:text-[#FF6B35] transition-colors duration-300'>
+                <h3 className='font-[font2] text-2xl lg:text-3xl uppercase text-black group-hover:text-[#D3FD50] transition-colors duration-300'>
                   {service.title}
                 </h3>
                 <p className='font-[font1] text-base lg:text-lg leading-relaxed text-gray-600'>
@@ -112,13 +112,13 @@ const ServicesSection = () => {
               <ul className='space-y-2'>
                 {service.features.map((feature, featureIndex) => (
                   <li key={featureIndex} className='flex items-center font-[font1] text-sm lg:text-base text-gray-600'>
-                    <span className='w-2 h-2 bg-[#FF6B35] rounded-full mr-3 group-hover:scale-125 transition-transform duration-300'></span>
+                    <span className='w-2 h-2 bg-[#D3FD50] rounded-full mr-3 group-hover:scale-125 transition-transform duration-300'></span>
                     {feature}
                   </li>
                 ))}
               </ul>
 
-              <div className='w-0 group-hover:w-full h-1 bg-[#FF6B35] transition-all duration-500 mt-6 rounded-full'></div>
+              <div className='w-0 group-hover:w-full h-1 bg-[#D3FD50] transition-all duration-500 mt-6 rounded-full'></div>
             </div>
           ))}
         </div>
